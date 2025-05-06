@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="jucePlugin" name="Grit Factory" projectType="jucePlugin" version="1.0">
+  <MAINGROUP id="Main" name="Grit Factory">
+    <GROUP id="Source" name="Source">
+      <FILE id="PluginProcessor.h" name="PluginProcessor.h" compile="1"/>
+      <FILE id="PluginProcessor.cpp" name="PluginProcessor.cpp" compile="1"/>
+      <FILE id="PluginEditor.h" name="PluginEditor.h" compile="1"/>
+      <FILE id="PluginEditor.cpp" name="PluginEditor.cpp" compile="1"/>
+    </GROUP>
+  </MAINGROUP>
+
+  <JUCEOPTIONS
+    pluginFormats="VST3, AU, AAX"
+    pluginIsSynth="0"
+    pluginWantsMidiIn="0"
+    pluginWantsMidiOut="0"
+    pluginEditorRequiresKeys="0"
+  />
+</JUCERPROJECT>
